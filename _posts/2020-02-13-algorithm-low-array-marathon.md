@@ -1,7 +1,9 @@
 ---
 layout: post
+comments: true
 title: 【アルゴリズム_初級】完走できなかったマラソン選手
 tags: [algorithm, java, array, low level]
+category: JAVA
 ---
 
 ## 【アルゴリズム_初級】完走できなかったマラソン選手
