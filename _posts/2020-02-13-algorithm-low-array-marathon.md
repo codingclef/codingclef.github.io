@@ -6,8 +6,6 @@ tags: [algorithm, java, array, low level]
 category: JAVA
 ---
 
-## 【アルゴリズム_初級】完走できなかったマラソン選手
-
 * アルゴリズム分類
 
   配列
