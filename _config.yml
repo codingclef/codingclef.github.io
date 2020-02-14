@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US" #"ja-JP" # target country
-title                    : "Coding Celf"
+title                    : "Coding Clef"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Coding Clef"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Coding clef"
+  name             : "Coding Clef"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "live in Japan from Korea"
   location         : "Tokyo, Japan"
