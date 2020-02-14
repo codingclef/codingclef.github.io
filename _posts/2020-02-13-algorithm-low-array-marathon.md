@@ -45,9 +45,7 @@ category: JAVA
 * 自分の解答
 
   HashMapを使う問題だが、配列だけにしてしまった。
-
   サイズの制約条件があったので、以下の解答でも問題なかったのかな？
-
 
 ```java
 class solution {
@@ -69,8 +67,9 @@ class solution {
 ```
 
 * 他の人の解答（コメント by codingClef）
+
 ```java
-public class Marathon {
+class Solution {
 	public static String solution(String[] participant, String[] completion) {
 		// 完走できなかった選手名
 		String answer = null;
