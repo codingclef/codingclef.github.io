@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ja-JP" #"en-US" # target country
+locale                   : "en-US" #"ja-JP" # target country
 title                    : "Coding Celf"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "ƒWƒ‡ƒ“"
+  name             : "Æ’WÆ’â€¡Æ’â€œ"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "live in Japan from Korea"
   location         : "Tokyo, Japan"
