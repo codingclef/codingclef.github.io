@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_初級】電話番号リスト
+title: 【アルゴリズム_初級】スパイの偽装
 tags: [algorithm, java, hash, low level]
 category: java
 ---
