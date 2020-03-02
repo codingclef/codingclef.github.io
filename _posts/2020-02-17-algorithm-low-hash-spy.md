@@ -1,8 +1,8 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_初級】スパイの偽装
-tags: [algorithm, java, hash, low level]
+title: 【アルゴリズム_中級】スパイの偽装
+tags: [algorithm, java, hash, middle level]
 category: java
 ---
 
