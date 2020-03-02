@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_初級】
+title: 【アルゴリズム_初級】数学を諦めた人
 tags: [algorithm, java, brute-force, low level]
 category: java
 ---
