@@ -1,8 +1,8 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_初級】電話番号リスト
-tags: [algorithm, java, hash, low level]
+title: 【アルゴリズム_中級】電話番号リスト
+tags: [algorithm, java, hash, middle level]
 category: java
 ---
 
