@@ -102,7 +102,7 @@ category: java
   }
   ```
   
-* **他の人の解答（コメント by codingClef）
+* **他の人の解答（コメント by codingClef）**
 
   他の人の回答の内、これいいねという回答がなかった。
   
