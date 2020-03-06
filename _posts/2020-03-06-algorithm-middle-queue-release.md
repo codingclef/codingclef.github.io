@@ -199,21 +199,25 @@ category: java
       public int[] solution(int[] progresses, int[] speeds) {
           Queue<Integer> q = new LinkedList<>();
           List<Integer> answerList = new ArrayList<>();
-  
+
           for (int i = 0; i < speeds.length; i++) {
-              double remain = (100 - progresses[i]) / (double) speeds[i];
-              int date = (int) Math.ceil(remain);
+              // 完了までの日数算出
+              double remain = (100 - progresses[i]) / (double) speeds[i]; // 切り上げのため、double型で演算
+              int date = (int) Math.ceil(remain); // 切り上げ
   
               if (!q.isEmpty() && q.peek() < date) {
-                  answerList.add(q.size());
-                  q.clear();
+                  // リリース待ち機能がない かつ 優先度が低に作業が遅く終わる場合
+                  answerList.add(q.size()); // 今までリリースを待ってた機能の件数を一日リリース数として格納
+                  q.clear(); // Queue初期化
               }
-  
+
+              // Queueに格納
               q.offer(date);
           }
-  
+          // 最後にたまる機能の格納
           answerList.add(q.size());
-  
+          
+          // リストの配列化
           int[] answer = new int[answerList.size()];
   
           for (int i = 0; i < answer.length; i++) {
@@ -224,6 +228,4 @@ category: java
       }
   }
   ```
-
-  
 
