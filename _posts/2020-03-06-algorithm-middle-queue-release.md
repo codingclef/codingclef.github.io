@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_中級】
+title: 【アルゴリズム_中級】リリース作業
 tags: [algorithm, java, queue, middle level]
 category: java
 ---
