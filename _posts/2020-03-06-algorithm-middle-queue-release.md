@@ -147,7 +147,7 @@ category: java
               // 日ごとにリリースされる件数をカウントする
               map.put(releaseDays.get(i), map.getOrDefault(releaseDays.get(i), 0) + 1);
           }
-          // LinkedHashMap → 配列
+      // LinkedHashMap → 配列
   		int[] releaseCount = new int[map.size()];
           
   		int index = 0;
