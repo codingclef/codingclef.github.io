@@ -2,7 +2,7 @@
 layout: posts
 comments: true
 title: 【アルゴリズム_中級】もっと辛く！
-tags: [algorithm, java, priority queue, middle level]
+tags: [algorithm, java, queue, middle level]
 category: java
 ---
 
@@ -55,42 +55,41 @@ category: java
   import java.util.PriorityQueue;
   
   class Solution2 {
-  
-  	/**
-  	 * 全ての食べ物が最低のスコヴィル値を満たすまで混合する回数を算出
-  	 *
-  	 * @param scoville スコヴィル値配列
-  	 * @param K 最低のスコヴィル値
-  	 * @return 全てのスコヴィル値を満たすまで混ぜえた回数
-  	 */
-  	public int solution(int[] scoville, int K) {
-  
-  		PriorityQueue<Integer> priorityQ = new PriorityQueue<>();
-  
-  		// 配列 → 優先度付きキュー
-  		for (int spicyLevel : scoville) {
-  			priorityQ.offer(spicyLevel);
-  		}
-  
-  		// mixするカウント
-  		int mixCount = 0;
-  
-  		// 食べ物が2つ以上残っていて、一番辛くない食べ物が基準を満たすまで繰り返す
-  		while (priorityQ.size() > 1 && priorityQ.peek() < K) {
-  			// 最も辛くない食べ物
-  			int notSpicy1st = priorityQ.poll();
-  			// 2番目で辛くない食べ物
-  			int notSpicy2nd = priorityQ.poll();
-  			// 食べ物混合
-  			priorityQ.offer(notSpicy1st + (notSpicy2nd * 2));
-  			// 混合カウント増加
-  			mixCount++;
-  		}
+      
+      /**
+      * 全ての食べ物が最低のスコヴィル値を満たすまで混合する回数を算出
+      *
+      * @param scoville スコヴィル値配列
+      * @param K 最低のスコヴィル値
+      * @return 全てのスコヴィル値を満たすまで混ぜえた回数
+      */
+      public int solution(int[] scoville, int K) {
           
-  		return priorityQ.peek() < K ? -1 : mixCount;
-  	}
+          PriorityQueue<Integer> priorityQ = new PriorityQueue<>();
+        
+          // 配列 → 優先度付きキュー
+          for (int spicyLevel : scoville) {
+              priorityQ.offer(spicyLevel);
+          }
+          
+          // mixするカウント
+          int mixCount = 0;
+          
+          // 食べ物が2つ以上残っていて、一番辛くない食べ物が基準を満たすまで繰り返す
+          while (priorityQ.size() > 1 && priorityQ.peek() < K) {
+              // 最も辛くない食べ物
+              int notSpicy1st = priorityQ.poll();
+              // 2番目で辛くない食べ物
+              int notSpicy2nd = priorityQ.poll();
+              // 食べ物混合
+              priorityQ.offer(notSpicy1st + (notSpicy2nd * 2));
+              // 混合カウント増加
+              mixCount++;
+          }
+          
+          return priorityQ.peek() < K ? -1 : mixCount;
+      }
   }
-  
   ```
 
 * **他の人の解答**
