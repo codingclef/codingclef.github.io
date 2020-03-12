@@ -2,8 +2,7 @@
 layout: posts
 comments: true
 title: 【アルゴリズム】LEVEL①．自乗数の判断
-tags: [algorithm, java, square]
-category: [algorithm,java,LEVEL①]
+category: [algorithm,java,LEVEL1]
 ---
 * **アルゴリズム分類**
 
