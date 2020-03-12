@@ -1,9 +1,8 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_中級】スパイの偽装
-tags: [algorithm, java, hash, middle level]
-category: java
+title: 【アルゴリズム】LEVEL②．スパイの偽装
+category: [algorithm,java,hash,LEVEL2]
 ---
 
 * **アルゴリズム分類**
@@ -66,6 +65,8 @@ category: java
 * **自分の解答**
 
   ```java
+  import java.util.
+  
   class Solution {
       public int solution(String[][] clothes) {
           // 掛け算するため、「1」に初期化
@@ -94,6 +95,7 @@ category: java
   ```java
   import java.util.HashMap;
   import java.util.Iterator;
+  
   class Solution {
       public int solution(String[][] clothes) {
           // 掛け算するため、「1」に初期化
