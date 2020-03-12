@@ -1,8 +1,8 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_初級】完走できなかったマラソン選手
-tags: [algorithm, java, array, low level]
+title: 【アルゴリズム】LEVEL①．完走できなかったマラソン選手
+tags: [algorithm, java, array]
 category: java
 ---
 
