@@ -2,8 +2,7 @@
 layout: posts
 comments: true
 title: 【アルゴリズム】LEVEL①．完走できなかったマラソン選手
-tags: [algorithm, java, array]
-category: java
+category: [algorithm,java,array,LEVEL①]
 ---
 
 * **アルゴリズム分類**
