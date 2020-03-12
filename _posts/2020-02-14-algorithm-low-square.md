@@ -1,9 +1,9 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_初級】自乗数の判断
-tags: [algorithm, java, square, low level]
-category: [algorithm,java]
+title: 【アルゴリズム】LEVEL①．自乗数の判断
+tags: [algorithm, java, square]
+category: [algorithm,java,LEVEL①]
 ---
 * **アルゴリズム分類**
 
