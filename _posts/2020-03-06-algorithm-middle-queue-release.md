@@ -1,9 +1,8 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム_中級】リリース作業
-tags: [algorithm, java, queue, middle level]
-category: java
+title: 【アルゴリズム】LEVEL2．リリース作業
+category: [algorithm, java, queue, LEVEL2]
 ---
 
 * **アルゴリズム分類**
