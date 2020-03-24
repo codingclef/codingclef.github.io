@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム】LEVEL①．自乗数の判断
+title: 【アルゴリズム】LEVEL1．自乗数の判断
 category: [algorithm,java,LEVEL1]
 
 ---
