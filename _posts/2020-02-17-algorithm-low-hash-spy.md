@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム】LEVEL②．スパイの偽装
+title: 【アルゴリズム】LEVEL2．スパイの偽装
 category: [algorithm,java,hash,LEVEL2]
 ---
 
