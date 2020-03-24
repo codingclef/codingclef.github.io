@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム】LEVEL①．数学を諦めた人
+title: 【アルゴリズム】LEVEL1．数学を諦めた人
 category: [algorithm,java,brute-force,LEVEL1]
 ---
 
