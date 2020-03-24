@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム】LEVEL②．電話番号リスト
+title: 【アルゴリズム】LEVEL2．電話番号リスト
 category: [algorithm,java,hash,LEVEL2]
 ---
 
