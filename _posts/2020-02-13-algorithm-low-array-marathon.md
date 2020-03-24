@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム】LEVEL①．完走できなかったマラソン選手
+title: 【アルゴリズム】LEVEL1．完走できなかったマラソン選手
 category: [algorithm,java,array,LEVEL1]
 ---
 
