@@ -1,7 +1,7 @@
 ---
 layout: posts
 comments: true
-title: 【アルゴリズム】LEVEL①．体操服
+title: 【アルゴリズム】LEVEL1．体操服
 tags: [algorithm, java, greedy algorithm]
 category: java
 ---
